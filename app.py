@@ -53,4 +53,4 @@ y_predict = float(model.predict_proba([params])[:, 1])
 
 st.subheader(' ')
 st.subheader(f'Risk of heart diseases: {"{:.0%}".format(y_predict)}')
-st.write(':red[NOTE]:  Model prediction is not abolute and is advisory in nature. For more accurate diagnosis, please consult a specialist.')
+st.write(':red[NOTE: ] Model prediction is advisory in nature. For more accurate diagnosis, please consult a specialist.')
