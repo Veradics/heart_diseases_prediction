@@ -3,7 +3,7 @@ import pickle
 
 # load the trained model
 def load():
-    with open('D:\\Projects_hub\\heart_deseases\\gbm_model.pcl', 'rb') as fid:
+    with open('./gbm_model.pcl', 'rb') as fid:
         return pickle.load(fid)
 
 # gender code
